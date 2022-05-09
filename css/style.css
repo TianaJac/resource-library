@@ -115,26 +115,26 @@ body{
 
 }
 #aws{
-    background-image: url(./images/aws.jpeg);
+    background-image: url(/images/aws.jpeg);
     background-size: cover;
 }
 #react{
-    background-image: url(./images/ResNcwZyph.png);
+    background-image: url(/images/ResNcwZyph.png);
     background-size: cover;
 }
 #react-native{
-    background-image: url(./images/react\ native.png);
+    background-image: url(/images/react\ native.png);
     background-size: cover;
 }
 #node-js{
-    background-image: url(./images/node\ js.png);
+    background-image: url(/images/node\ js.png);
     background-size: cover;
 }
 #agile{
-    background-image: url(./images/agile.webp);
+    background-image: url(/images/agile.webp);
     background-size: cover;
 }
 #adobe-after-effect{
-    background-image: url(./images/Adobe-After-Effects-1.jpg);
+    background-image: url(/images/Adobe-After-Effects-1.jpg);
     background-size: cover;
 }
