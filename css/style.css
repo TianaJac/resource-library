@@ -105,14 +105,43 @@ body{
     background: rgb(153, 82, 82);
     border: 0.54m solid grey;
     padding: 150px 50px;
+    height: auto;
+    width: 1fr;
 
 }
 .gridwrapper a{
     text-decoration: none;
     color: #fff;
 }
-.gridwrapper .box:hover{
+/* .gridwrapper .box:hover{
 
+} */
+.box .hidden-text{
+    display: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px;
+    justify-content: center;
+}
+.box .hidden-text h1{
+    text-align: center;
+}
+.box .hidden-text p{
+    text-align: justify;
+}
+/* .box:hover .overlay{
+    background-color: #00828B;
+    color: rgb(158, 14, 14);
+} */
+.box:hover .hidden-text{
+    top: 90px;
+    position: relative;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+    display: block;
+    /* height: auto;
+    width: 1fr; */
 }
 #aws{
     background-image: url(/images/aws.jpeg);
