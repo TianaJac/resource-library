@@ -81,6 +81,7 @@ body{
         -webkit-text-fill-color: rgba(255, 255, 255, 0);
         word-wrap:break-word;
         top: 50px;
+        padding: 50px;
 }
       @keyframes slide {
         0% {
@@ -105,7 +106,7 @@ body{
     background: rgb(153, 82, 82);
     border: 0.54m solid grey;
     padding: 150px 50px;
-    height: auto;
+    height: 100px;
     width: 1fr;
 
 }
@@ -113,9 +114,9 @@ body{
     text-decoration: none;
     color: #fff;
 }
-/* .gridwrapper .box:hover{
-
-} */
+.gridwrapper .box:hover{
+    background: #000;
+}
 .box .hidden-text{
     display: none;
     color: rgb(255, 255, 255);
@@ -133,9 +134,11 @@ body{
     background-color: #00828B;
     color: rgb(158, 14, 14);
 } */
+
+
 .box:hover .hidden-text{
-    top: 90px;
-    position: relative;
+    /* top: 90px;
+    position: relative; */
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.1);
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
@@ -166,4 +169,22 @@ body{
 #adobe-after-effect{
     background-image: url(/images/Adobe-After-Effects-1.jpg);
     background-size: cover;
+}
+#aws:hover{
+    background: rgb(17, 19, 100);
+}
+#react:hover{
+    background: rgb(17, 19, 100);
+}
+#react-native:hover{
+    background: rgb(17, 19, 100);
+}
+#node-js:hover{
+    background: rgb(17, 19, 100);
+}
+#agile:hover{
+    background: rgb(17, 19, 100);
+}
+#adobe-after-effect:hover{
+    background: rgb(17, 19, 100);
 }
