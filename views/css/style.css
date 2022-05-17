@@ -170,6 +170,16 @@ body{
     background-image: url(/views/images/Adobe-After-Effects-1.jpg);
     background-size: cover;
 }
+#datascience{
+    background-image: url(/views/images/Data\ Science.jpg);
+    background-size: cover;
+}#starting-a-career-in-tech{
+    background-image: url(/views/images/STARTING\ A\ CAREER\ IN.png);
+    background-size: cover;
+}#cyberSecurity{
+    background-image: url(/views/images/cybersecurity.png);
+    background-size: cover;
+}
 #aws:hover{
     background: rgb(17, 19, 100);
 }
@@ -186,5 +196,14 @@ body{
     background: rgb(17, 19, 100);
 }
 #adobe-after-effect:hover{
+    background: rgb(17, 19, 100);
+}
+#starting-a-career-in-tech:hover{
+    background: rgb(17, 19, 100);
+}
+#datascience:hover{
+    background: rgb(17, 19, 100);
+}
+#cyberSecurity:hover{
     background: rgb(17, 19, 100);
 }
